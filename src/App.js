@@ -17,7 +17,7 @@ export const counterReducer = (state = initialState, action) => {
   }
 };
 
-const allReducer = combineReducers({
+export const allReducer = combineReducers({
   counter: counterReducer,
 });
 
